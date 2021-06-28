@@ -1,0 +1,19 @@
+ <h3>Specifications</h3></div>
+      <div class="panel-body">
+        <h4>General</h4>
+        <table class="table table-default">
+          <tbody>
+            <tr>
+              <td class="col-sm-4"># of Cards</td>
+              <td class="col-sm-8">99</td>
+            </tr>
+            <tr>
+              <td class="col-sm-4">Players:</td>
+              <td class="col-sm-8">2-10+</td>
+            </tr>
+            <tr>
+              <td class="col-sm-4">Time:</td>
+              <td class="col-sm-8">60-90 Minutes</td>
+            </tr>
+          </tbody>
+        </table></div>
