@@ -1,0 +1,14 @@
+   <div class="product-description rte" itemprop="description">
+      {{ product.description | split: '<!--LONG-->' | first }}      
+    </div></div>
+  {% if product.description contains '<!--LONG-->'%}
+  <div class="product-description rte" itemprop="description">
+      {{ product.description | split: '<!--LONG-->' | last }}      
+    </div>
+  {%endif%}
+    <div id="shopify-product-reviews" data-id="{{product.id}}">{{ product.metafields.spr.reviews }}</div>
+    {% if section.settings.social_sharing_products %}
+      {% include 'social-sharing' %}
+    {% endif %}
+
+  </div>
