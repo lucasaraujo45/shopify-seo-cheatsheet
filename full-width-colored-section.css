@@ -1,0 +1,9 @@
+.colored {
+  background: rgba(0, 0, 0, 0.03);
+  padding: 15px;
+  width: 100vw;
+  position: relative;
+  margin-left: -50vw;
+  margin-top: 100px;
+  left: 50%;
+}
